@@ -1,0 +1,95 @@
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  padding: 0 5%;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header .circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  filter: blur(50px);
+  z-index: -1;
+}
+
+header .circle.c-1 {
+  top: -50px;
+  left: -50px;
+  background-color: rgb(255, 33, 114);
+}
+header .circle.c-2 {
+  top: -50px;
+  left: 100px;
+  background-color: rgb(188, 23, 238);
+}
+header .circle.c-3 {
+  top: 150px;
+  left: 10px;
+  background-color: rgb(223, 232, 126);
+}
+header .circle.c-4 {
+  top: 200px;
+  right: 100px;
+  background-color: rgb(255, 196, 87);
+}
+
+header h2 {
+  font-family: "Craftwork Grotesk Medium", sans-serif;
+  font-size: 1.5em;
+  color: #666;
+}
+
+header h1 {
+  font-family: "Craftwork Grotesk Heavy", sans-serif;
+  font-size: 5em;
+  line-height: 1;
+  margin: 1rem 0;
+}
+
+header span.name {
+  background: -webkit-linear-gradient(0deg, #f6ea41, #f048c6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  font-size: 1em;
+}
+
+header .btn {
+  height: 50px;
+  width: 160px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f6ea41, #f048c6);
+  font-family: "Craftwork Grotesk Heavy", sans-serif;
+  color: #111;
+  font-size: 0.9em;
+  cursor: pointer;
+  position: relative;
+}
+
+header .btn::after {
+  content: "";
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  height: 50px;
+  width: 160px;
+  z-index: -1;
+  border-radius: 10px;
+  border: 10px solid transparent;
+  background: linear-gradient(90deg, #f6ea41, #f048c6), border-box;
+  mask-composite: exclude;
+  color: #111;
+  font-size: 0.9em;
+  cursor: pointer;
+}

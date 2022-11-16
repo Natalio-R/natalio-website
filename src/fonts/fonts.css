@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Craftwork Grotesk";
+  src: local("Craftwork Grotesk"),
+    url("CraftworkGroteskGX.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Craftwork Grotesk SemiBold";
+  src: local("Craftwork Grotesk"),
+    url("CraftworkGrotesk-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Craftwork Grotesk Regular";
+  src: local("Craftwork Grotesk"),
+    url("CraftworkGrotesk-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Craftwork Grotesk Medium";
+  src: local("Craftwork Grotesk"),
+    url("CraftworkGrotesk-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Craftwork Grotesk Heavy";
+  src: local("Craftwork Grotesk"),
+    url("CraftworkGrotesk-Heavy.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Craftwork Grotesk Bold";
+  src: local("Craftwork Grotesk"),
+    url("CraftworkGrotesk-Bold.ttf") format("truetype");
+}
